@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+    height: 100%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* use viewport-relative units to cover page fully */
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  img {
+    display: unset;
+  }
+
+  /* full-sized  container that fills up the page */
+  div.main {
+    height: 100%;
+    width: 100%;
+  }
+}
