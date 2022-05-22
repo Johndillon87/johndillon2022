@@ -9,6 +9,7 @@
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
   /* use viewport-relative units to cover page fully */
   body {
